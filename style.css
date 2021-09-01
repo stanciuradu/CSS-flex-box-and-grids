@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+      font-family: Arial, Geneva, sans-serif;
+  }
+  a {
+      color: #2772B0;
+  }
+  .wrapper {
+      width: 97%;
+      max-width: 1200px;
+      margin: 0 auto;
+      float: none;
+      background-color: #fff;
+  }
+  
+  div img {
+      width: 100%;
+      max-width: 225px; 
+  }
+   
+  /* Ecran pentru telefonul mobil */
+  @media only screen and (min-width: 480px)  {
+  
+  }
+  /* Dimensiune ecran desktop */
+  @media only screen and (min-width: 768px) {
+    .wrapper .col-1{
+        /* asezarea pe coloane  */
+        flex: 0 0 20%;
+        margin-left: 4%;
+        flex-direction: column;
+    }
+    .wrapper .col-1 h3{
+        text-align: center;
+    }
+    .wrapper .col-2{
+        /* asezarea pe coloane  */
+        flex: 0 0 20%;
+        margin-left: 4%;
+    }
+    .wrapper .col-2 h3{
+        text-align: center;
+    }
+    .wrapper .col-3{
+        /* asezarea pe coloane  */
+        flex: 0 0 20%;
+        margin-left: 4%;
+    }
+    .wrapper .col-3 h3{
+        text-align: center;
+    }
+    .wrapper .col-4{
+        /* asezarea pe coloane  */
+        flex: 0 0 20%;
+        margin-left: 4%;
+    }
+    .wrapper .col-4 h3{
+        text-align: center;
+    }
+  }
+
+    .wrapper .row{
+        display: flex;
+        /* directia e un rand */
+        flex-flow: row wrap;
+    }
+
+    .wrapper .col-1{
+        flex: 0 0 20%;
+        margin-left: 4%;
+    }
+
+    .wrapper .col-1{
+        background-color: #ffc;
+    }
